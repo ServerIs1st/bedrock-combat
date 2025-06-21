@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockcombat",
+  "version": "1.0.0",
+  "name": "Bedrock Combat",
+  "description": "Removes attack cooldown for Bedrock-style combat.",
+  "authors": ["YourName"],
+  "entrypoints": {
+  "main": ["bedrockcombat.BedrockCombatMod"],
+  "client": ["bedrockcombat.BedrockCombatClient"]
+},
+"depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric": "*",
+    "minecraft": "1.21.6"
+  }
+}
